@@ -1,18 +1,10 @@
-# petTinder-proposal
-
-The team lead's repo for this assignment will become the project repo for the team.
-For this assignment, submit the link for the project lead's repo in Canvas.
-An instructor will add project partners to the team lead's repo after the proposal deadline.
-The proposal itself should appear in the [./proposal](proposal) subdirectory, 
-where you'll find the [proposal-guidelines.md](proposal/proposal-guidelines.md) 
+# Pet Tinder
 
 # Team
 
-**Team members:** Shenyu Li (team leader), Letian Qin(team member)
+**Team members:**  Letian Qin, Shenyu Li
 
-**GitHub Classroom Repo:** [GitHub Classroom link][(https://github.com/nuwebdev/hw05-proposal-lishenyu1024/)](URL) – Hosted by Shenyu Li
-
-## Project Goals
+## Project Goal
 
 Develop a Pet Tinder website that allows pet owners to create profiles for their pets and list their pets for public activities such as group walks, thereby promoting social interaction between pets and their owners.
 
@@ -31,7 +23,6 @@ Develop a Pet Tinder website that allows pet owners to create profiles for their
 
 ## User Interface Design
 
-The user interface will be simple and engaging, focusing on ease of use, including:
 - Account Registration Page (You must register to access)
 ![image](https://raw.githubusercontent.com/lishenyu1024/pics/5a04bef10829b810bd99cf3ffcc51477cb3025e3/readme/register.png)
 
@@ -85,9 +76,7 @@ The user interface will be simple and engaging, focusing on ease of use, includi
 ## Installation
 
  - Clone the repository to your local machine.
-```rake
-git clone https://github.com/nuwebdev/hw05-proposal-lishenyu1024.git
-```
+
 
 ## Front-end installation preparation
 - cd Frontend/pet_frontend
@@ -132,21 +121,9 @@ python manage.py runserver
   
 ## Other Requirements
 
-- Acknowledgments: Cite all sources used for development.
+- Acknowledgments: 
   1. Python Django Tutorial: https://www.youtube.com/watch?v=rHux0gMZ3Eg
   2. Angular Tutorial: https://www.youtube.com/watch?v=k5E2AVpwsko
   3. JSON Web Tokens: https://jwt.io/introduction
   4. OpenWeatherMap API guide: https://openweathermap.org/guide
-- Reproducibility: Provide detailed instructions for setting up the development environment and running the application in the README.md.
-- Deployment: Initially set up against a local development server, with a comprehensive privacy policy if deployed publicly.
-
-## Project Management
-
-- **Work Plan:** Detail roles, responsibilities, milestones, and timelines in a separate Markdown file in the proposal subdirectory.
-- **Milestones:** Includes initial setup, feature development phases (authentication, profile management, api integration), testing, and final deployment.
-
-### Roles and Responsibilities
-
-- **Shenyu Li:** Front-end development, UI design, and weather API integration.
-- **Letian Qin:** Back-end development, database management, and project management.
 
