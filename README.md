@@ -1,6 +1,6 @@
 # Pet Tinder
 
-# Team
+## Team
 
 **Team members:**  Letian Qin, Shenyu Li
 
