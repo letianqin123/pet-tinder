@@ -1,0 +1,28 @@
+<div class="container">
+    <div *ngIf="activitys">
+      <div class="row rowsize" *ngFor="let activity of activitys.reverse()">
+        <div class="col-9 " >
+            <div class="card " >
+                <div class="row rowsize2 ">
+                  <div class="col-md-2">
+                    <img src="http://127.0.0.1:8000{{activity.pet.image}}" class=" img imagesize rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-6 des ">
+                    <div class="card-body">
+                      <h5 class="card-title">{{activity.pet.name}} 
+                        
+                     </h5>
+                      <p class="card-text">{{activity.pet.description}}</p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    </div>
+    <div *ngIf="activitys.length==0" >
+      <img id="img" src="assets/images/confirm.png" alt="">
+      <p id="i">No Confirmed Activities Yet!</p>
+    </div>
+</div>
